@@ -9,8 +9,8 @@
     body {
       margin: 0;
       font-family: 'Urbanist', sans-serif;
-      background-color: #111;
-      color: #fff;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
     }
     header {
       background: url('https://images.unsplash.com/photo-1601366533287-0434c9d3073e?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
@@ -20,17 +20,22 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      color: white;
+      padding: 0 1rem;
     }
     header h1 {
       font-size: 4rem;
       margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
     header p {
       font-size: 1.5rem;
       margin: 1rem 0;
+      font-weight: 300;
     }
     .btn {
-      background: #e50914;
+      background: #d90429;
       color: white;
       padding: 1rem 2rem;
       border: none;
@@ -38,11 +43,18 @@
       cursor: pointer;
       text-decoration: none;
       border-radius: 8px;
+      margin-top: 1rem;
     }
     section {
       padding: 4rem 2rem;
       max-width: 1000px;
       margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
     }
     .services {
       display: flex;
@@ -52,9 +64,10 @@
     }
     .service {
       flex: 1 1 45%;
-      background: #222;
+      background: #1a1a1a;
       padding: 2rem;
       border-radius: 12px;
+      border-left: 4px solid #d90429;
     }
     iframe {
       width: 100%;
@@ -67,13 +80,16 @@
       background: #000;
       color: #aaa;
     }
+    a {
+      color: #d90429;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Fade Factory</h1>
-    <p>Precision Cuts • Clean Fades • Fresh Looks</p>
-    <a href="https://calendly.com/YOURBOOKINGLINK" class="btn" target="_blank">Book Now</a>
+    <p>Where Culture Meets Clean Cuts</p>
+    <a href="https://calendly.com/fadefactorybarber/appointment" class="btn" target="_blank">Book Your Fade</a>
   </header>
 
   <section>
@@ -81,32 +97,42 @@
     <div class="services">
       <div class="service">
         <h3>Classic Fade</h3>
-        <p>A timeless fade tailored to your head shape. Includes line-up & style.</p>
+        <p>The foundation of the culture. A sharp, clean fade customized to your style. Includes line-up and finish.</p>
       </div>
       <div class="service">
-        <h3>Beard Trim</h3>
-        <p>Clean up and shape your beard. Includes hot towel finish.</p>
+        <h3>Beard Sculpt</h3>
+        <p>Precision shaping, tapering, and edge work for a beard that speaks respect.</p>
       </div>
       <div class="service">
-        <h3>Full Service</h3>
-        <p>Haircut, beard, and facial steam combo. Walk out feeling brand new.</p>
+        <h3>Full Experience</h3>
+        <p>Haircut, beard detail, steam facial, and hot towel treatment — the full Fade Factory experience.</p>
       </div>
       <div class="service">
-        <h3>Kids Cut</h3>
-        <p>Fresh fade for the young kings. Includes styling and smile guarantee.</p>
+        <h3>Young King Cut</h3>
+        <p>Fresh fades for the next generation. Sharp, quick, and styled with care.</p>
       </div>
     </div>
   </section>
 
   <section>
     <h2>Follow Us on Instagram</h2>
-    <!-- Replace with your SnapWidget, LightWidget or other embed code -->
+    <!-- Replace with your SnapWidget or LightWidget embed code -->
     <iframe src="https://snapwidget.com/embed/1013885" allowtransparency="true" scrolling="no"></iframe>
+  </section>
+
+  <section>
+    <h2>Pull Up On Us</h2>
+    <p style="text-align: center; max-width: 700px; margin: auto; font-size: 1.1rem;">
+      Located in the heart of the neighborhood, Fade Factory is more than a barbershop — it's a community space where culture, conversation, and cuts come together. Walk-ins welcome, appointments preferred.
+    </p>
+    <div style="text-align:center; margin-top: 2rem;">
+      <a href="https://booksy.com/en-us/123456_fade-factory_barber-shop_12345_city" class="btn" target="_blank">Book on Booksy</a>
+    </div>
   </section>
 
   <footer>
     <p>© 2025 Fade Factory Barbershop. All rights reserved.</p>
-    <p><a href="mailto:fadefactory@gmail.com">fadefactory@gmail.com</a> | IG: @fadefactory</p>
+    <p><a href="mailto:fadefactory@gmail.com">fadefactory@gmail.com</a> | IG: <a href="https://instagram.com/fadefactory" target="_blank">@fadefactory</a></p>
   </footer>
 </body>
 </html>
